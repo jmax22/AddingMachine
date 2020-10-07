@@ -27,6 +27,7 @@ public class AddingMachine {
 	  }
 
 	  public void clear() {
+		  System.gc();
 	  }
 
 }
